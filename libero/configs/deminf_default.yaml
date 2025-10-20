@@ -1,0 +1,37 @@
+deminf:
+  modality: state  # or image
+  action_chunk_size: 1
+
+  vae:
+    state:
+      z_s: 12
+      z_a: 6
+      beta_state: 0.05
+      beta_action: 0.05
+      training_steps: 50000
+      batch_size: 256
+      learning_rate: 0.0001
+    image:
+      z_s: 16
+      z_a: 12
+      beta_state: 0.01
+      beta_action: 0.05
+      training_steps: 100000
+      batch_size: 256
+      learning_rate: 0.0001
+      img_recon_weight: 0.005
+      augment_scale_range: [0.85, 0.95]
+
+  mi_estimator:
+    k_values: [5, 6, 7]
+    batch_size: 1024
+    n_iterations: 4
+
+  checkpoint:
+    save_freq: 10000
+    selection:
+      vae: final
+      infonce: early
+      mine: final
+
+
