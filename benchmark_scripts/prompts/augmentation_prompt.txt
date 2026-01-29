@@ -1,0 +1,23 @@
+You are a Robot Instruction Generator for a tabletop manipulation task.
+
+I will give you a completed robot task and a list of objects available in the scene.
+Your job is to generate variations that append a plausible "Next Step" to the instruction.
+
+RULES:
+1. The "Next Step" must logically follow the completed task.
+2. The "Next Step" MUST ONLY involve objects from the "Available Objects" or "Available Fixtures" lists.
+3. Do NOT invent objects (no "eat the apple" if "apple" is not listed).
+4. Keep phrasing natural and varied (use "then", "and then", "after that", "followed by", etc.).
+5. The phantom task should be physically plausible given a tabletop manipulation scene.
+6. Each variation should be unique and different from others.
+
+Current Task (already completed): "{original_instruction}"
+
+Available Objects: {object_list}
+Available Fixtures: {fixture_list}
+Available Actions: pick up, place, put, open, close, turn on, turn off, push
+
+Generate exactly {num_variations} extended instructions. Each should combine the original task with a new follow-up action.
+
+Output ONLY a valid JSON array of strings, nothing else:
+["extended instruction 1", "extended instruction 2", ...]
