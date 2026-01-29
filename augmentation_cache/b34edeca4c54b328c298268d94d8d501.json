@@ -1,0 +1,31 @@
+{
+  "results": [
+    "turn on the stove and then pick up the black bowl",
+    "turn on the stove followed by placing the cream cheese on the table",
+    "turn on the stove, then open the wine bottle",
+    "turn on the stove and then put the plate next to it",
+    "turn on the stove, followed by pushing the black bowl closer to the edge of the table",
+    "turn on the stove and then close the wooden cabinet",
+    "turn on the stove, then place the wine bottle on the flat stove",
+    "turn on the stove and then pick up the plate to prepare for serving",
+    "turn on the stove followed by opening the wine rack to retrieve a bottle",
+    "turn on the stove and then put the cream cheese in the black bowl"
+  ],
+  "metadata": {
+    "original_instruction": "turn on the stove",
+    "objects": [
+      "black bowl",
+      "cream cheese",
+      "wine bottle",
+      "plate"
+    ],
+    "fixtures": [
+      "table",
+      "wooden cabinet",
+      "flat stove",
+      "wine rack"
+    ],
+    "mock": false,
+    "model": "gpt-4o-mini"
+  }
+}

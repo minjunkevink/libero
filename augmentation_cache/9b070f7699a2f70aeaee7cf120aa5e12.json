@@ -1,0 +1,31 @@
+{
+  "results": [
+    "open the middle drawer of the cabinet and then pick up the black bowl from the table",
+    "open the middle drawer of the cabinet followed by placing the cream cheese inside the drawer",
+    "open the middle drawer of the cabinet and then put the wine bottle on the table",
+    "open the middle drawer of the cabinet and after that close the drawer gently",
+    "open the middle drawer of the cabinet and then turn on the flat stove",
+    "open the middle drawer of the cabinet and then push the plate onto the table",
+    "open the middle drawer of the cabinet followed by taking out the wine bottle to examine it",
+    "open the middle drawer of the cabinet and then place the black bowl next to the cream cheese on the table",
+    "open the middle drawer of the cabinet and then turn off the flat stove after checking it",
+    "open the middle drawer of the cabinet followed by putting the plate into the drawer for storage"
+  ],
+  "metadata": {
+    "original_instruction": "open the middle drawer of the cabinet",
+    "objects": [
+      "black bowl",
+      "cream cheese",
+      "wine bottle",
+      "plate"
+    ],
+    "fixtures": [
+      "table",
+      "wooden cabinet",
+      "flat stove",
+      "wine rack"
+    ],
+    "mock": false,
+    "model": "gpt-4o-mini"
+  }
+}

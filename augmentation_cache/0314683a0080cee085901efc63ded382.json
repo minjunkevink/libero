@@ -1,0 +1,31 @@
+{
+  "results": [
+    "put the cream cheese in the bowl and then pick up the wine bottle",
+    "put the cream cheese in the bowl followed by placing the black bowl on the table",
+    "put the cream cheese in the bowl and then open the wine bottle",
+    "put the cream cheese in the bowl after that, place the black bowl next to the plate",
+    "put the cream cheese in the bowl and then turn on the flat stove",
+    "put the cream cheese in the bowl followed by pushing the plate closer to the bowl",
+    "put the cream cheese in the bowl and then close the wine bottle",
+    "put the cream cheese in the bowl and then turn off the flat stove",
+    "put the cream cheese in the bowl and then place the black bowl inside the wooden cabinet",
+    "put the cream cheese in the bowl followed by picking up the plate"
+  ],
+  "metadata": {
+    "original_instruction": "put the cream cheese in the bowl",
+    "objects": [
+      "black bowl",
+      "cream cheese",
+      "wine bottle",
+      "plate"
+    ],
+    "fixtures": [
+      "table",
+      "wooden cabinet",
+      "flat stove",
+      "wine rack"
+    ],
+    "mock": false,
+    "model": "gpt-4o-mini"
+  }
+}

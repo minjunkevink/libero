@@ -1,0 +1,31 @@
+{
+  "results": [
+    "open the top drawer and put the bowl inside, then close the drawer",
+    "open the top drawer and put the bowl inside, followed by picking up the cream cheese",
+    "open the top drawer and put the bowl inside, and then place the wine bottle on the table",
+    "open the top drawer and put the bowl inside, after that put the plate next to the bowl",
+    "open the top drawer and put the bowl inside, and then open the wooden cabinet",
+    "open the top drawer and put the bowl inside, followed by placing the wine bottle in the wine rack",
+    "open the top drawer and put the bowl inside, then pick up the plate and set it on the table",
+    "open the top drawer and put the bowl inside, after that close the top drawer gently",
+    "open the top drawer and put the bowl inside, and then turn on the flat stove",
+    "open the top drawer and put the bowl inside, followed by pushing the wooden cabinet slightly to the left"
+  ],
+  "metadata": {
+    "original_instruction": "open the top drawer and put the bowl inside",
+    "objects": [
+      "black bowl",
+      "cream cheese",
+      "wine bottle",
+      "plate"
+    ],
+    "fixtures": [
+      "table",
+      "wooden cabinet",
+      "flat stove",
+      "wine rack"
+    ],
+    "mock": false,
+    "model": "gpt-4o-mini"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "results": [
+    "put the wine bottle on the rack and then place the black bowl on the table.",
+    "put the wine bottle on the rack followed by picking up the cream cheese.",
+    "put the wine bottle on the rack, and then open the flat stove.",
+    "put the wine bottle on the rack after that, place the plate next to it on the table.",
+    "put the wine bottle on the rack, then close the wooden cabinet.",
+    "put the wine bottle on the rack followed by pushing the black bowl to the edge of the table.",
+    "put the wine bottle on the rack and then turn on the flat stove.",
+    "put the wine bottle on the rack, after that, pick up the plate from the table.",
+    "put the wine bottle on the rack and then turn off the wooden cabinet.",
+    "put the wine bottle on the rack, followed by placing the cream cheese on the plate."
+  ],
+  "metadata": {
+    "original_instruction": "put the wine bottle on the rack",
+    "objects": [
+      "black bowl",
+      "cream cheese",
+      "wine bottle",
+      "plate"
+    ],
+    "fixtures": [
+      "table",
+      "wooden cabinet",
+      "flat stove",
+      "wine rack"
+    ],
+    "mock": false,
+    "model": "gpt-4o-mini"
+  }
+}

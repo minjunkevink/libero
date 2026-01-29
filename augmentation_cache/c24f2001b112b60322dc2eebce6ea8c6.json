@@ -1,0 +1,31 @@
+{
+  "results": [
+    "put the bowl on the plate and then pick up the cream cheese.",
+    "put the bowl on the plate followed by placing the wine bottle on the table.",
+    "put the bowl on the plate and then open the wine bottle.",
+    "put the bowl on the plate after that push the plate closer to the edge of the table.",
+    "put the bowl on the plate and then turn on the flat stove.",
+    "put the bowl on the plate and then close the wooden cabinet.",
+    "put the bowl on the plate followed by turning off the flat stove.",
+    "put the bowl on the plate and then place the wine bottle on the wooden cabinet.",
+    "put the bowl on the plate and then push the plate toward the center of the table.",
+    "put the bowl on the plate followed by picking up the wine bottle."
+  ],
+  "metadata": {
+    "original_instruction": "put the bowl on the plate",
+    "objects": [
+      "black bowl",
+      "cream cheese",
+      "wine bottle",
+      "plate"
+    ],
+    "fixtures": [
+      "table",
+      "wooden cabinet",
+      "flat stove",
+      "wine rack"
+    ],
+    "mock": false,
+    "model": "gpt-4o-mini"
+  }
+}
